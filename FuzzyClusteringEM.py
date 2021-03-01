@@ -68,10 +68,7 @@ while time < 3:
     print("c1 = (" + str(c1x) + "," + str(c1y) + ")")
     print("c2 = (" + str(c2x) + "," + str(c2y) + ")")
 
-    u = [c1x,c1y]
-    v = [c2x,c2y]
-
-    outA = u
-    outB = v
+    outA = [c1x,c1y]
+    outB = [c2x,c2y]
     print("-----------------------------")
     time += 1
