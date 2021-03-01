@@ -1,7 +1,11 @@
 %x = [0,3 ;3,1; 5,1; 3,2; 2,4];
-x = [1,1 ;1,0; 0,2; 1.5,3.5; 3,5];
+%x = [1,1 ;1,0; 0,2; 1.5,3.5; 3,5];
+x = [0,2 ;2,0; 3,1; 5, 1];
 
-% normal, for Inter-Cluster Similarity
+%if x-axis only
+%x = [16.9,0 ;38.5,0; 39.5,0; 80.8,0; 82,0; 34.6,0; 116.1,0];
+
+% normal pt to pt dist, r = 2 , Z0 == Z2
 D0 = pdist (x);
 Z0 = squareform(D0);
 
