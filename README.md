@@ -1,6 +1,6 @@
 # ML related algorithm for soving HandWriting question
 Current List:
-1. Euclidean Distance
+1. Euclidean Distance   
 1.1. Mahalanobis Distance
 3. Entropy
 4. Cosine Similarity (Cosine distance / Correlation distance / L2 norm distance)
