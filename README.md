@@ -1,5 +1,5 @@
 # ML related algorithm for soving HandWriting question
-Aims to soving question that require to handwriting only, may not sutiable to computing.
+Aims to soving question that require to handwriting only, may not sutiable to computing.  
 Current List:
 1. Euclidean Distance / Mahalanobis Distance
 2. Entropy
