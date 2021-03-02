@@ -1,4 +1,4 @@
-# ML related algorithm for soving HandWriting question
+# ML related algorithm for solving HandWriting question
 Aims to soving question that require to handwriting only, may not sutiable to computing.
 ## Current List:
 1. Euclidean Distance / Mahalanobis Distance
