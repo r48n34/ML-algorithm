@@ -24,5 +24,5 @@ Aims to soving question that require to handwriting only, may not sutiable to co
 10. Fuzzy Clustering Using the EM 
 11. Confusion Matrix
 12. GiniIndex (2D)  
-12.1 GiniIndex with Continuous Attributes  
+12.1 GiniIndex with Continuous Attributes 
 13. Perceptron Architecture (simple)  
