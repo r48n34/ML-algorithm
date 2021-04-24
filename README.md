@@ -11,7 +11,7 @@ Aims to soving question that require to handwriting only, may not sutiable to co
 4.1 Covariance matrix  
 4.2 Eigen values + vertor  
 4.3 Apply PCA  
-5. Linear Discriminant Analysis (LDA)
+5. Linear Discriminant Analysis (LDA)  
 5.1 Plot the data  
 5.2 class mean and covariance matrix  
 5.3 Within-class scatter matrix and Between-class scatter matrix  
