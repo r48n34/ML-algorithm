@@ -26,4 +26,5 @@ Aims to soving question that require to handwriting only, may not sutiable to co
 12. GiniIndex (2D)  
 12.1 GiniIndex with Continuous Attributes 
 13. Perceptron Architecture (simple)  
-14. Bayes Theorem 
+14. Bayes Theorem  
+15. Decistion tree with error and gain
