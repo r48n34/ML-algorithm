@@ -26,5 +26,6 @@ print("f11 = " + str(f11))
 
 smc = (f11 + f00) / (f01 + f10 + f11 + f00)
 j = f11 / (f01 + f10 + f11)
-print("smc = " + str(smc))
-print("J = " + str(j))
+
+print("SMC = (", f11, "+", f00, ") / (", f01, "+", f10, "+", f11, "+", f00, ") = ", smc)
+print("J = ", f11, " / (", f01 , "+", f10 , "+", f11 , ") = " , j )
