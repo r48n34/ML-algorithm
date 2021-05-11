@@ -13,7 +13,7 @@
 
 % x only approache single
 x = [2,4,7,8,12,14];
-%y = pdist(x',"cityblock");
+y = pdist(x',"cityblock");
 Z0 = squareform(y);
 z = linkage(y,"complete");
 dendrogram(z);
