@@ -6,9 +6,9 @@ def probCal(a):
 
 #your dataSet 
 #let (+) = 1, (-) = 0 at last attrubutes (two class only and attributes 1 or 0 only)
-dataSet = np.array([[0,0,0,1],[1,0,0,0],[1,1,0,0],[1,1,0,0],[1,0,0,1],[1,0,1,1],[1,0,1,0],[1,0,1,0],[1,1,1,1],[1,0,1,1]])
+dataSet = np.array([[1,0,1,0],[1,2,0,1],[1,1,0,1],[0,1,1,0],[0,0,0,0],[0,2,1,1],[1,1,0,0],[1,2,1,0],[0,2,0,1],[1,1,1,0]])
 #targeted dataSet
-pos = np.array([0,1,0])
+pos = np.array([1,0,0])
 
 dLen = np.size(dataSet,0) # all record count
 dxLen = np.size(dataSet,1) # each record y axis
@@ -24,10 +24,9 @@ for i in dataSet:
     else:
         classB.append(i)
 
-classALen = np.size(classA,0)
-classBLen = np.size(classB,0)
 
 def classCon(arr):
+    classLen = np.size(arr,0)
     attri = []
     for i in range(dxLen - 1):
         attri.append(0)
@@ -42,11 +41,11 @@ def classCon(arr):
 
     total = int(1)
     for i in attri:
-        print(str(i) + "/" + str(classALen) + " * ")
-        total *= (i / classALen)
+        print(str(i) + "/" + str(classLen) + " * ")
+        total *= (i / classLen)
 
-    print(str(classALen) + "/" + str(dLen))
-    total *= (classALen / dLen)
+    print(str(classLen) + "/" + str(dLen))
+    total *= (classLen / dLen)
     print("= " + str(total))
     print("---------")
 
