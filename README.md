@@ -28,4 +28,5 @@ Aims to soving question that require to handwriting only, may not sutiable to co
 13. Perceptron Architecture (simple)  
 14. Bayes Theorem  
 15. Decistion tree with error and gain  
-16. KNN
+16. KNN  
+17. Mean & Var for prob class  
