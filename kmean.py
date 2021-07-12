@@ -13,7 +13,7 @@ selected = [pt[0],pt[2]]
 #selected = [pt[0],pt[3]]
 
 # k = selected cluster
-# if 
+# Here k = loop count for after first-round-batch
 k = 2
 
 textList = []

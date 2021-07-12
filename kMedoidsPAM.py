@@ -2,6 +2,9 @@ import math
 import statistics
 import numpy as np
 
+# Single round compare, not for compute the best result
+# If needed, you can write a loop for it
+
 pt = [[8,7],[3,7],[4,9],[9,6],[8,5],[5,8],[7,3],[8,4],[7,5],[4,5]]
 
 #c1 = pt[9], c2 = pt[4]

@@ -19,7 +19,6 @@ def entropyCal(p):
 def errorCal(p):
     return 1 - max(p, (1-p))
 
-
 #yes,true... = 1. else 0
 #last attribute = class
 dataSet = np.array([[1,1,1,0],[1,1,0,0],[0,0,1,1],[1,0,0,1]])
@@ -74,4 +73,3 @@ for i in range(int(dLenX - 1)):
     gain = 1 - (gpl * eLeft) - (gpr * eRight)
     print("gain = " + str(gain))
     print("---------------------------")
-

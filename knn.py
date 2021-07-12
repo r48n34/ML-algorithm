@@ -18,13 +18,11 @@ pt = [[2,10],[2,5],[8,4],[5,8],[7,5],[6,4],[1,2],[4,9]]
 # threshold
 t = 4
 
-
 maxClass = int(1)
 res = []
 
 p = Point(pt[0],0,0,0)
 res.append(p)
-
 
 stPt = pointDiff(pt[1],pt[0])
 if stPt > t: 
@@ -38,7 +36,7 @@ else:
 
 i = int(2)
 while i < int(len(pt)):
-    minn = int(100000)
+    minn = int(100000) #temp value for biggest value, if data set contains numbers bigger that it, make sure to adjust this number for a larger value.
     minPol = []
 
     for k in res:

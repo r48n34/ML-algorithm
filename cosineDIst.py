@@ -4,7 +4,6 @@
 #(a) Cosine distance
 #(b) Correlation distance
 #(c) L2 norm distance
-#(d) Please illustrate the property of scale invariant for correlation distance.
 ###
 import numpy as np
 import math
@@ -27,7 +26,6 @@ while (i < int(len(x))):
 print("x.y = ")
 print(sumXY)
 print("")
-##################
 
 qSumx = 0
 for k in x:
@@ -39,8 +37,6 @@ print("|| x || = ")
 print(qSumx)
 print("")
 
-##################
-
 qSumy = 0
 for k in y:
     qSumy += k**2
@@ -49,7 +45,6 @@ print("|| y || = ")
 print(qSumy)
 print("")
 
-##################
 ans1 = sumXY / (qSumx * qSumy)
 print("cos(x,y) = Cosine distance = ")
 print(ans1)
@@ -70,10 +65,8 @@ yAvg = (1/n) * sum(y)
 print("Avg Y = ")
 print(yAvg)
 print("")
-##################
 
 sxIn = int(0)
-
 for k in x:
     sxIn += (k - xAvg) ** 2
 
@@ -81,10 +74,8 @@ sxFinal = math.sqrt(sxIn * (1/(n-1)))
 print("Sx = ")
 print(sxFinal)
 print("")
-##################
 
 syIn = int(0)
-
 for k in y:
     syIn += (k - yAvg) ** 2
 
@@ -111,7 +102,7 @@ print(ans2)
 print("------------------")
 
 #################
-#(a) L2 norm distance
+#(c) L2 norm distance
 
 ans3 = int(0)
 i = int(0)

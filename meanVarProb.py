@@ -21,7 +21,6 @@ for i in range(len(dbClass)):
     else:
         arrYes = np.append(arrYes, db[i])
 
-
 meanNo = np.mean(arrNo, axis=0)
 varNo = statistics.variance(arrNo)
 
@@ -33,7 +32,3 @@ print("mean Yes =", meanYes, "variance of Yes =" , varYes)
 print()
 print("P(No) = ", normaldis(tar, meanNo, varNo))
 print("P(Yes) = ", normaldis(tar, meanYes, varYes))
-
-
-
-

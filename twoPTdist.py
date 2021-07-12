@@ -6,4 +6,3 @@ one = [0,0]
 two = [1,1]
 
 print(pointDiff(one,two)) 
-
