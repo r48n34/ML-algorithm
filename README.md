@@ -30,3 +30,7 @@ Aims to soving question that require to handwriting only, may not sutiable to co
 15. Decistion tree with error and gain  
 16. KNN  
 17. Mean & Var for prob class  
+18. SVD image remove watermark  
+19. least squares fit 3d  
+20. CNN experiment with FNN / CNN  
+
