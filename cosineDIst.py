@@ -108,7 +108,7 @@ ans3 = int(0)
 i = int(0)
 
 while (i < int(len(x))):
-   ans3 +=  (x[i] - y[i]) ** 2
+   ans3 += (x[i] - y[i]) ** 2
    i += 1
 
 ans3 = ans3 ** 0.5
