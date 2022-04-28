@@ -53,9 +53,6 @@ def countThreshold(arr, threshold):
     print(f'Between-Class Variance = {betweenClassVariance}')
 
 
-
-
-
 if __name__ == "__main__":
     arr2 = np.array([
         [1,2,1,3,6,6],
