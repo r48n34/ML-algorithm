@@ -1,5 +1,6 @@
 %x = [6,-3,-2,7 ; -4,5,6,-3]; %[all x, all y]
 
+% Give data { (-1,-2), (-1,0) , (0,0), (2,1), (0,1) }
 x = [-1,-1,0,2,0 ; -2,0,0,1,1];
 %(a) The covariance matrix;
 %Each row mean
